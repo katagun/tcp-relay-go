@@ -6,7 +6,6 @@ import (
 	"net"
 	"os"
 	"strconv"
-//	"io"
 	
 	"github.com/strizhov/tcp-relay"
 	"github.com/hashicorp/yamux"
