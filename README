@@ -16,7 +16,7 @@ Features:
 
 1. Supports any tcp application layer protocol (echo server can be easily replaced by any other process, e.g. http server, ftp server, etc)
 2. Allows multiple tunnel clients. Each client can communicate with echo server at the same time.
-3. Support multiple echo servers. Each echo server has its own individual socket at the relay.
+3. Supports multiple echo servers. Each echo server has its own individual socket at the relay.
 4. Checks if echo server is alive when the new client is connected to relay.
 5. Aggregates network statistics (# of bytes) over each connected client.
 
